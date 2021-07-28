@@ -10,29 +10,38 @@
         h3,
         h4 {
             font-weight: 400;
+            font-family: 'Open Sans', sans-serif;
         }
 
         h1 {
             font-size: 300%;
+            font-family: 'Open Sans', sans-serif;
+            margin-bottom: 0px;
         }
 
         h2 {
             font-size: 200%;
+            font-family: 'Open Sans', sans-serif;
         }
 
         h3 {
             font-size: 1.17em;
             margin-top: 1em;
             margin-bottom: 1em;
+            font-family: 'Open Sans', sans-serif;
         }
 
         h4 {
             font-size: 1em;
             margin-top: 1.33em;
             margin-bottom: 1.33em;
+            font-family: 'Open Sans', sans-serif;
         }
 
         p {
+            font-size: 15px;
+            line-height: 1.4;
+            font-family: 'Open Sans', sans-serif;
         }
     }
 }
@@ -79,6 +88,3 @@
     text-align: left !important;
 }
 
-.upscale-desktop .configuration {
-    padding: 0 !important;
-}
