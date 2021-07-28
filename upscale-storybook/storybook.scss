@@ -1,3 +1,18 @@
-.upscale-extra-large .storybook-background, .upscale-large .storybook-background {
-    padding: 0 !important;
+
+.upscale-mobile :host {
+    .storybook-background {
+        padding: 0;
+    }
+}
+
+.upscale-tablet :host {
+    .storybook-background {
+        padding: 0;
+    }
+}
+
+.upscale-desktop :host {
+    .storybook-background {
+        padding: 0;
+    }
 }
