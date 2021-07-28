@@ -14,16 +14,10 @@
 
         h1 {
             font-size: 300%;
-            padding-right: 5%;
-            padding-left: 5%;
-            text-align: center;
         }
 
         h2 {
             font-size: 200%;
-            padding-right: 5%;
-            padding-left: 5%;
-            text-align: center;
         }
 
         h3 {
@@ -39,10 +33,6 @@
         }
 
         p {
-            font-size: 110%;
-            padding-right: 5%;
-            padding-left: 5%;
-            text-align: center;
         }
     }
 }
@@ -84,7 +74,7 @@
     line-height: 1.38;
 }
 
-.text {
-    margin: 500px;
-}
 
+.text > * {
+    text-align: left !important;
+}
