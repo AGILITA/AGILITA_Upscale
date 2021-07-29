@@ -57,10 +57,3 @@ upscale-shopping-cart-icon {
     @include small-font-size;
 }
 
-
-:host >>> .breadcrumbs__link {
-    text-decoration: none;
-    max-width: 1500px;
-    width: 85%;
-    margin: 0 auto;
-}
