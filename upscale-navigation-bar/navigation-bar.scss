@@ -3,6 +3,10 @@
 $space-between: 10px;
 
 :host {
+	upscale-header{
+		box-shadow: 0px 0px 5px #777777;
+	}
+
     nav {
         display: flex;
         min-height: 54px;
