@@ -1,0 +1,17 @@
+:host {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+
+	upscale-language-selector,
+	upscale-header,
+	upscale-experience-component-location {
+		flex: none;
+		box-shadow: 0px 0px 5px #777777;
+	}
+
+	.router-outlet {
+		flex: 1;
+		overflow-y: auto;
+	}
+}
