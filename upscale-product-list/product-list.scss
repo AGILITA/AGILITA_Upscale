@@ -9,8 +9,9 @@
         background-color: none;
 	}
     
-    &-image .img {
-        background-size: 42%;
+    &-image > * {
+        width: 42%;
+        margin: 0 auto;
     }
     
 }
