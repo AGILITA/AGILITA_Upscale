@@ -8,8 +8,9 @@
         border-radius: 5px;
         background-color: none;
 	}
+
+    &-image .img {
+        background-size: 42%;
+    }
 }
 
-.product-image .img {
-    width: 42%;
-}
