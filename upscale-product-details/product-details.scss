@@ -1,5 +1,6 @@
+
 upscale-breadcrumbs {
-	max-width: 85%;
+
 	width: 85%;
 	margin: 0 auto;
 	padding: 0;
@@ -7,11 +8,15 @@ upscale-breadcrumbs {
 	border-bottom: none;
 }
 
-.upscale-breadcrumbs { 	
-	max-width: 85%;
-	width: 85%;
-	margin: 0 auto;
-	padding: 0;
-	background-color: #f5f5f5;
-	border-bottom: none; 
-}	
+
+.upscale-mobile :host {
+
+}
+
+.upscale-tablet :host {
+
+}
+
+.upscale-desktop :host {
+
+}
