@@ -17,5 +17,11 @@
 }
 
 .upscale-desktop :host {
-
+	.upscale-extra-large .image-carousel-static-size {
+		height: 300px;
+	}
+	.static-height {
+        height: 300px;
+        width: 300px;		
+	}
 }
