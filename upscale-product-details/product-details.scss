@@ -16,12 +16,38 @@
 
 }
 
+/*
 .upscale-desktop :host {
-	.upscale-extra-large .image-carousel-static-size {
-		height: 300px;
-	}
 	.static-height {
         height: 300px;
         width: 300px;		
+	}
+}
+*/
+
+.upscale-large {
+	:host {
+		.static-height {
+			height: 300px;
+			width: 300px;	
+		}
+		.image-carousel-static-size {
+			height: 300px;
+			width: 62px;
+		}
+
+	}
+}
+
+.upscale-extra-large {
+	:host {
+		.static-height {
+			height: 300px;
+			width: 300px;	
+		}
+		.image-carousel-static-size {
+			height: 300px;
+			width: 112px;
+		}
 	}
 }
