@@ -65,7 +65,7 @@ $row-height: 54px;
             &.desktop {
                 max-height: 40px;
             }
-
+            vertical-align: middle;
             max-height: 26px;
             @include clickable;
         }

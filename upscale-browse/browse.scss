@@ -63,11 +63,15 @@
 	align-items: center;
 	display: flex;
 	flex-direction: row;
-	font-family: Roboto;
 	@include small-font-size;
 	width: 85%;
 	height: 34px;
-	padding: 0;
+    padding: 0;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-style: normal;
 
 	.breadcrumb {
 		&:not(:last-of-type) {
